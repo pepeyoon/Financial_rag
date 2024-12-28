@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 def load_data():
-    df_edu = pd.read_csv('college_fos_data.csv')
+    df_edu = pd.read_csv('california_colleges.csv')
     df_occ = pd.read_csv('msa_occ_wage_only_3columns.csv')
     
     df_edu['INSTNM'] = df_edu['INSTNM'].str.strip()
