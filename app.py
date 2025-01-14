@@ -35,6 +35,10 @@ def format_salary(salary):
     except (ValueError, TypeError):
         return "N/A"
 
+def save_output_to_file(output, filename="output.txt"):
+    with open(filename, "a") as file:
+        file.write(output + "\n")
+
 def extract_html(response):
     html_pattern = re.compile(r'<html>.*?</html>', re.DOTALL)
     match = html_pattern.search(response)
@@ -103,6 +107,7 @@ def main():
         explanation_response = query_llm(explanation_prompt, model_id, api_key)
         st.session_state["explanation_response"] = explanation_response
         st.write(explanation_response)
+        save_output_to_file(explanation_response)
 
     if st.session_state["explanation_response"]:
         chart_prompt = f"""
@@ -122,6 +127,7 @@ def main():
             chart_response = query_llm(chart_prompt, model_id, api_key)
             st.session_state["chart_response"] = chart_response
             components.html(chart_response, height=400, scrolling=True)
+            save_output_to_file(chart_response)
 
     if st.session_state["chart_response"]:
         plan_prompt = f"""
@@ -138,8 +144,70 @@ def main():
             model_id = llm_models[selected_model]
             plan_response = query_llm(plan_prompt, model_id, api_key)
             st.write(plan_response)
+            save_output_to_file(plan_response)
 
     st.subheader(f"Salary Analysis (using {selected_model})")
+
+    if "additional_step" not in st.session_state:
+        st.session_state["additional_step"] = 0
+
+    additional_variables = [
+        ("Do you have a pet? If yes, what kind?", "pet"),
+        ("What is your favorite subject?", "subject"),
+        ("What is your main goal in life?", "goal"),
+        ("Do you like money?", "like_money"),
+        ("Do you like cars?", "like_cars"),
+        ("Do you admire any singer? If yes, who?", "admire_singer")
+    ]
+
+    if st.button("Next Step"):
+        st.session_state["additional_step"] += 1
+
+    step = st.session_state["additional_step"]
+    if step > 0 and step <= len(additional_variables):
+        question, var_name = additional_variables[step - 1]
+        if var_name in ["like_money", "like_cars"]:
+            response = st.checkbox(question)
+        else:
+            response = st.text_input(question)
+
+        if st.button("Revise Projection"):
+            additional_prompt = f"""
+            Considering the following personal preference or interest:
+            - {question}: {response}
+            
+            Revise the 15-year net worth projection based on this new information.
+            and output in the same formatt as the original explanation.
+            also include a comparison between the original and revised explanation.
+
+            Original Explanation:
+            {st.session_state["explanation_response"]}
+            Format:
+            1. Revised Explanation:
+                - Key Factors:
+                - Factor 1: Description
+                - Factor 2: Description
+                - ...
+            - 15-Year Net Worth Projection:
+                - Year 1: $X
+                - Year 2: $Y
+                 - ...
+                - Year 15: $Z
+
+            2. Comparison:
+            - Original vs Revised:
+                - Year 1: Original $X vs Revised $X'
+                - Year 2: Original $Y vs Revised $Y'
+                - ...
+                - Year 15: Original $Z vs Revised $Z'
+            """
+
+            model_id = llm_models[selected_model]
+            revised_response = query_llm(additional_prompt, model_id, api_key)
+            st.write(revised_response)
+            save_output_to_file(revised_response)
+            save_output_to_file(additional_prompt)
+        
         
 if __name__ == "__main__":
     main()
