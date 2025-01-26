@@ -2,3 +2,6 @@ streamlit
 pandas
 openai
 python-dotenv
+anthropic
+plotly
+watchdog

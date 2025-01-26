@@ -994,3 +994,996 @@ The student will incur significant debt during their 4 years at CIIS if no finan
                 - ...
                 - Year 15: Original $Z vs Revised $Z'
             
+TextBlock(citations=None, text="I'll help analyze the financial outlook for attending California Institute of Integral Studies (CIIS) and subsequent career planning.\n\nCurrent Location Analysis (90052, CA):\n- Median household income: Approximately $71,000\nThis may qualify you for some need-based financial aid.\n\nCIIS Cost Analysis (2023-24):\n- Annual tuition: ~$22,000\n- Total estimated cost of attendance (including room & board): ~$45,000/year\n- As a California resident, you may be eligible for in-state tuition rates\n- Estimated net price after typical grants/scholarships: ~$35,000/year\n\n15-Year Projection:\n\nYears 1-4 (School Years):\n- Accumulating student debt: -$140,000 (estimated total)\n- No income during school years\n\nYears 5-15 (Working Years in Abilene, TX):\n- Management Occupation median salary in Abilene: ~$75,000/year\n- 1-bedroom apartment average rent in Abilene: ~$900/month\n- Estimated monthly loan payment: $1,400/month\n- Estimated annual take-home after taxes: $56,000\n\nKey Factors to Consider:\n1. Student loan burden will be significant relative to starting salary\n2. Cost of living in Abilene is relatively low, which helps with debt management\n3. Management career path offers good growth potential\n4. Consider additional certifications/specializations to increase earning potential\n5. Living costs in Abilene allow for faster debt repayment compared to staying in California\n\nWould you like me to break down any of these numbers in more detail or explore specific aspects of this financial projection?", type='text')
+TextBlock(citations=None, text='{\n    "income": [\n        0, 0, 0, 0,\n        75000, 77250, 79567, 81954, 84413, 86945, 89554, 92240, 95007, 97858, 100793\n    ],\n    "expenses": [\n        45000, 45000, 45000, 45000,\n        35000, 36050, 37131, 38245, 39392, 40574, 41791, 43045, 44336, 45666, 47036\n    ],\n    "tuition": [\n        22000, 22660, 23340, 24040,\n        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n    ],\n    "loan": {\n        "totalBorrowed": 140000,\n        "monthlyPayment": 1400,\n        "yearlyPayments": [\n            0, 0, 0, 0,\n            16800, 16800, 16800, 16800, 16800, 16800, 16800, 16800, 16800, 16800, 16800\n        ]\n    },\n    "netWorthEachYear": [\n        -45000, -90000, -135000, -180000,\n        -156800, -132400, -106764, -79855, -51634, -22063, 8900, 41295, 75166, 110558, 147515\n    ],\n    "totalNetWorth": 147515\n}', type='text')
+I'll help analyze the financial outlook for attending California Institute of Integral Studies (CIIS) and subsequent career planning. Let me break this down:
+
+Current Location Analysis (90057 - Los Angeles):
+- Median household income: ~$47,000
+This income level likely qualifies for significant financial aid.
+
+CIIS Cost Analysis:
+- Annual tuition: ~$24,500
+- Books and supplies: ~$1,800
+- Room and board (off-campus): ~$18,000
+- Other expenses: ~$5,000
+Total annual cost: ~$49,300
+
+Financial Aid Estimate:
+- Federal Pell Grant (based on income): ~$6,895
+- Cal Grant (as CA resident): ~$9,220
+- Institutional aid: ~$8,000
+Estimated annual net cost: ~$25,185
+
+15-Year Projection:
+
+Years 1-4 (School Years):
+- Accumulating student debt: -$100,740 (4 years × $25,185)
+
+Years 5-15 (Working Years in Abilene, TX):
+Management Occupation median salary: ~$75,000
+Monthly take-home (after taxes): ~$4,700
+
+Monthly Expenses in Abilene:
+- 1 bedroom apartment rent: ~$900
+- Utilities: ~$150
+- Student loan payment: ~$1,050
+- Other living expenses: ~$1,500
+Monthly savings potential: ~$1,100
+
+Key Factors:
+1. The 90057 income level qualifies for substantial financial aid
+2. California residency status significantly impacts aid eligibility
+3. Abilene's lower cost of living helps with loan repayment
+4. Management salary in Abilene provides reasonable debt-to-income ratio
+5. Monthly savings possible while managing loan payments
+
+This analysis assumes stable employment, consistent living costs, and standard loan terms. Individual circumstances may vary.
+{
+    "income": [0, 0, 0, 0, 75000, 77250, 79568, 81955, 84413, 86946, 89554, 92241, 95008, 97858, 100794],
+    "expenses": [49300, 49300, 49300, 49300, 42600, 43878, 45194, 46550, 47947, 49385, 50867, 52393, 53964, 55583, 57251],
+    "tuition": [24500, 24500, 24500, 24500, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "loan": [25185, 50370, 75555, 100740, 92680, 84620, 76560, 68500, 60440, 52380, 44320, 36260, 28200, 20140, 12080],
+    "netWorthEachYear": [-25185, -50370, -75555, -100740, -68340, -34968, -632, 34773, 71239, 108800, 147487, 187335, 228379, 270654, 314197],
+    "totalNetWorth": 314197
+}
+I'll help analyze the financial outlook for attending California Institute of Integral Studies (CIIS) and subsequent career planning. Let me break this down:
+
+Current Location Analysis (90057 - Los Angeles, CA):
+- Median household income: ~$47,000
+This income level likely qualifies for significant financial aid and grants.
+
+Education Costs at CIIS (4 years):
+- Annual tuition: ~$24,000
+- As a CA resident: Eligible for in-state rates and CA state aid
+- Estimated net price after typical aid: ~$18,000/year
+- Total estimated debt after 4 years: ~$72,000 (assuming standard financial aid package)
+
+Post-Graduation Career Projection (Abilene, TX):
+Management Occupations:
+- Starting salary (Abilene): ~$55,000
+- Mid-career salary: ~$75,000
+- 1-bedroom apartment in Abilene: ~$850/month
+
+15-Year Projection:
+Years 1-4 (School): -$72,000 (accumulated debt)
+Years 5-15 (Working):
+Annual Income: $55,000-75,000
+Annual Expenses:
+- Housing: ~$10,200
+- Loan payments: ~$8,400
+- Other living expenses: ~$25,000
+Net annual savings potential: $11,400-31,400
+
+Key Factors:
+1. The lower cost of living in Abilene helps offset student loan payments
+2. Management career path offers good income growth potential
+3. California residency status provides significant tuition benefits
+4. Initial debt is manageable with projected salary
+5. Location change from LA to Abilene provides cost-of-living advantage
+
+Would you like me to provide more detailed calculations for any specific aspect of this projection?
+{
+    "income": {
+        "year1": 0,
+        "year2": 0,
+        "year3": 0,
+        "year4": 0,
+        "year5": 55000,
+        "year6": 58000,
+        "year7": 61000,
+        "year8": 64000,
+        "year9": 67000,
+        "year10": 70000,
+        "year11": 71500,
+        "year12": 73000,
+        "year13": 74000,
+        "year14": 74500,
+        "year15": 75000
+    },
+    "expenses": {
+        "year1": 43000,
+        "year2": 43000,
+        "year3": 43000,
+        "year4": 43000,
+        "year5": 43600,
+        "year6": 44200,
+        "year7": 44800,
+        "year8": 45400,
+        "year9": 46000,
+        "year10": 46600,
+        "year11": 47200,
+        "year12": 47800,
+        "year13": 48400,
+        "year14": 49000,
+        "year15": 49600
+    },
+    "tuition": {
+        "year1": 24000,
+        "year2": 24000,
+        "year3": 24000,
+        "year4": 24000,
+        "year5": 0,
+        "year6": 0,
+        "year7": 0,
+        "year8": 0,
+        "year9": 0,
+        "year10": 0,
+        "year11": 0,
+        "year12": 0,
+        "year13": 0,
+        "year14": 0,
+        "year15": 0
+    },
+    "loan": {
+        "year1": 18000,
+        "year2": 36000,
+        "year3": 54000,
+        "year4": 72000,
+        "year5": 67200,
+        "year6": 62400,
+        "year7": 57600,
+        "year8": 52800,
+        "year9": 48000,
+        "year10": 43200,
+        "year11": 38400,
+        "year12": 33600,
+        "year13": 28800,
+        "year14": 24000,
+        "year15": 19200
+    },
+    "netWorthEachYear": {
+        "year1": -18000,
+        "year2": -36000,
+        "year3": -54000,
+        "year4": -72000,
+        "year5": -55800,
+        "year6": -42000,
+        "year7": -25800,
+        "year8": -7200,
+        "year9": 13800,
+        "year10": 37200,
+        "year11": 61500,
+        "year12": 86700,
+        "year13": 112300,
+        "year14": 137800,
+        "year15": 164200
+    },
+    "totalNetWorth": 164200
+}
+Based on the financial data and projections, here are 3 alternative plans that could potentially offer better financial outcomes:
+
+Plan 1:
+- College: Texas Tech University (Lubbock, TX)
+- Field: Business Analytics
+- Career: Data Analytics Manager
+- Location: Austin, TX
+Lower tuition costs (~$11,000/year in-state), strong tech job market in Austin with higher starting salaries ($65-70K), and better career growth potential in the tech sector. Total projected debt would be around $44,000.
+
+Plan 2:
+- College: Cal State Long Beach
+- Field: Computer Science
+- Career: Software Developer
+- Location: Los Angeles, CA
+Significantly lower tuition (~$7,000/year), stay in current location reducing moving costs, higher starting salary ($75-80K), strong tech job market. Estimated total debt around $28,000.
+
+Plan 3:
+- College: Arizona State University
+- Field: Healthcare Administration
+- Career: Healthcare Manager
+- Location: Phoenix, AZ
+Moderate tuition (~$12,000/year), growing healthcare sector, lower cost of living than CA, starting salaries around $60-65K with excellent growth potential. Expected total debt around $48,000.
+
+All these alternatives offer lower initial debt burden than the current plan ($72,000) while potentially providing higher starting salaries in growing industries and locations with strong job markets.
+I'll help analyze the financial outlook for attending California Institute of Integral Studies (CIIS) and future career projections.
+
+Current Location Analysis (90057 - Los Angeles, CA):
+- Median household income: ~$47,000
+This income level likely qualifies for significant financial aid and grants.
+
+CIIS Costs & Aid (2023-24 estimates):
+- Annual tuition: ~$24,000
+- Room & board: ~$21,000
+- Total annual cost: ~$45,000
+- Estimated grants (based on income): ~$20,000
+- Net annual cost: ~$25,000
+- 4-year total debt estimate: ~$100,000
+
+Post-Graduation Location: Abilene, TX
+Career: Management Occupations
+- Starting salary estimate: ~$55,000
+- Mid-career salary estimate: ~$75,000
+- 1-bedroom apartment rent in Abilene: ~$850/month
+
+15-Year Projection:
+
+Years 1-4 (School Years):
+- Accumulating debt only: -$100,000 total
+
+Years 5-15 (Working Years):
+Annual Income (after taxes): ~$42,000 → $58,000
+Annual Expenses:
+- Rent: ~$10,200
+- Student loan payments: ~$12,000
+- Other living expenses: ~$15,000
+Net savings potential: $4,800 → $20,800 annually
+
+Key Factors:
+1. The student loan burden is significant relative to expected starting salary
+2. Abilene's lower cost of living helps with savings potential
+3. Management career path shows good income growth potential
+4. Consider additional certifications/skills to accelerate income growth
+5. Living frugally first 5 years post-graduation would help manage debt
+
+Would you like me to break down any of these elements in more detail?
+{
+    "income": [0, 0, 0, 0, 42000, 44000, 46000, 48000, 50000, 52000, 54000, 56000, 58000, 60000, 62000],
+    "expenses": [45000, 45000, 45000, 45000, 37200, 37500, 37800, 38100, 38400, 38700, 39000, 39300, 39600, 39900, 40200],
+    "tuition": [24000, 24000, 24000, 24000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "loan": [-25000, -50000, -75000, -100000, -88000, -76000, -64000, -52000, -40000, -28000, -16000, -4000, 0, 0, 0],
+    "netWorthEachYear": [-25000, -50000, -75000, -100000, -95200, -88700, -80500, -70600, -59000, -45700, -30700, -14000, 18400, 38500, 60300],
+    "totalNetWorth": 60300
+}
+I'll help analyze the financial outlook for attending California Institute of Integral Studies (CIIS) and subsequent career planning. Let me break this down:
+
+Current Location Analysis (90057 - Los Angeles, CA):
+- Median household income: ~$47,000
+This income level likely qualifies for significant financial aid and grants.
+
+Education Costs at CIIS:
+- Annual tuition: ~$24,000
+- Estimated total annual cost (including living expenses): ~$45,000
+- As a California resident, you'll pay in-state tuition
+- Estimated financial aid based on income: ~$20,000/year
+- Estimated net cost per year: ~$25,000
+- Total estimated 4-year debt: $100,000
+
+Post-Graduation Career Projection (Abilene, TX):
+Management Occupations:
+- Starting salary: ~$55,000
+- Mid-career salary: ~$75,000
+- 1-bedroom apartment in Abilene: ~$850/month
+
+15-Year Projection:
+Years 1-4 (School): -$100,000 (accumulating debt)
+Years 5-15 (Working):
+- Annual income growth from $55,000 to $75,000
+- Monthly expenses (including loan payments): ~$2,500
+- Potential to save: $1,000-1,500/month
+
+Key Factors:
+1. The significant debt load requires careful budgeting
+2. Abilene's lower cost of living helps with debt repayment
+3. Management career path shows good income growth potential
+4. Consider income-based repayment plans for student loans
+5. Living costs in Abilene are significantly lower than California, aiding savings
+
+Would you like me to provide more detailed calculations for any specific aspect of this projection?
+{
+    "income": [0, 0, 0, 0, 55000, 57000, 59000, 61000, 63000, 65000, 67000, 69000, 71000, 73000, 75000],
+    "expenses": [45000, 45000, 45000, 45000, 30000, 31000, 32000, 33000, 34000, 35000, 36000, 37000, 38000, 39000, 40000],
+    "tuition": [24000, 24000, 24000, 24000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "loan": [25000, 50000, 75000, 100000, 95000, 90000, 85000, 80000, 75000, 70000, 65000, 60000, 55000, 50000, 45000],
+    "netWorthEachYear": [-25000, -50000, -75000, -100000, -70000, -44000, -17000, 11000, 40000, 70000, 101000, 133000, 166000, 200000, 235000],
+    "totalNetWorth": 235000
+}
+I'll help analyze the financial aspects of attending California Institute of Integral Studies (CIIS) and project future finances. Let me break this down:
+
+Current Situation:
+- Zipcode 90057 (Los Angeles) median household income: ~$47,000
+This income level likely qualifies for significant financial aid.
+
+Education Costs at CIIS:
+- Annual tuition: ~$24,000
+- Estimated total annual cost: ~$45,000
+- As a California resident, you may qualify for in-state benefits
+- Potential financial aid based on income:
+  * Federal Pell Grant: up to $7,395
+  * Cal Grant: up to $12,570
+  * Institutional aid varies
+
+First 4 Years (School Period):
+- Estimated annual net cost after grants: ~$25,000
+- Total projected debt after 4 years: ~$100,000
+
+Post-Graduation (Abilene, TX):
+Management Occupations in Abilene:
+- Starting salary: ~$55,000
+- Mid-career salary: ~$75,000
+
+Monthly Breakdown (Abilene):
+- 1 bedroom apartment rent: ~$850
+- Student loan payment: ~$1,000
+- Other living expenses: ~$1,500
+- Total monthly expenses: ~$3,350
+
+15-Year Projection:
+Years 1-4: -$100,000 (accumulating student debt)
+Years 5-15: 
+- Income growth from $55,000 to $75,000
+- Monthly positive cash flow: $1,200-$2,000
+- Potential to repay debt within 8-10 years with disciplined budgeting
+
+Key Factors:
+1. The income-to-debt ratio is manageable but requires careful planning
+2. Lower cost of living in Abilene helps with debt repayment
+3. Management career path offers good income growth potential
+4. Consider income-based repayment plans for student loans
+5. Building emergency savings should be prioritized alongside debt repayment
+
+Would you like me to provide more detailed calculations for any specific aspect of this projection?
+{
+    "netWorthEachYear": [
+        {"year": 1, "netWorth": -25000},
+        {"year": 2, "netWorth": -50000},
+        {"year": 3, "netWorth": -75000},
+        {"year": 4, "netWorth": -100000},
+        {"year": 5, "netWorth": -85000},
+        {"year": 6, "netWorth": -65000},
+        {"year": 7, "netWorth": -42000},
+        {"year": 8, "netWorth": -15000},
+        {"year": 9, "netWorth": 15000},
+        {"year": 10, "netWorth": 48000},
+        {"year": 11, "netWorth": 85000},
+        {"year": 12, "netWorth": 125000},
+        {"year": 13, "netWorth": 168000},
+        {"year": 14, "netWorth": 215000},
+        {"year": 15, "netWorth": 265000}
+    ],
+    "yearlyDetails": [
+        {
+            "year": 1,
+            "income": 0,
+            "expenses": 21000,
+            "tuition": 24000,
+            "loan": 25000
+        },
+        {
+            "year": 2,
+            "income": 0,
+            "expenses": 21000,
+            "tuition": 24000,
+            "loan": 25000
+        },
+        {
+            "year": 3,
+            "income": 0,
+            "expenses": 21000,
+            "tuition": 24000,
+            "loan": 25000
+        },
+        {
+            "year": 4,
+            "income": 0,
+            "expenses": 21000,
+            "tuition": 24000,
+            "loan": 25000
+        },
+        {
+            "year": 5,
+            "income": 55000,
+            "expenses": 40200,
+            "tuition": 0,
+            "loan": -15000
+        },
+        {
+            "year": 6,
+            "income": 58000,
+            "expenses": 40200,
+            "tuition": 0,
+            "loan": -20000
+        },
+        {
+            "year": 7,
+            "income": 61000,
+            "expenses": 40800,
+            "tuition": 0,
+            "loan": -23000
+        },
+        {
+            "year": 8,
+            "income": 64000,
+            "expenses": 41400,
+            "tuition": 0,
+            "loan": -27000
+        },
+        {
+            "year": 9,
+            "income": 67000,
+            "expenses": 42000,
+            "tuition": 0,
+            "loan": -30000
+        },
+        {
+            "year": 10,
+            "income": 70000,
+            "expenses": 42600,
+            "tuition": 0,
+            "loan": -33000
+        },
+        {
+            "year": 11,
+            "income": 72000,
+            "expenses": 43200,
+            "tuition": 0,
+            "loan": -37000
+        },
+        {
+            "year": 12,
+            "income": 73500,
+            "expenses": 43800,
+            "tuition": 0,
+            "loan": -40000
+        },
+        {
+            "year": 13,
+            "income": 74500,
+            "expenses": 44400,
+            "tuition": 0,
+            "loan": -43000
+        },
+        {
+            "year": 14,
+            "income": 75000,
+            "expenses": 45000,
+            "tuition": 0,
+            "loan": -47000
+        },
+        {
+            "year": 15,
+            "income": 75000,
+            "expenses": 45600,
+            "tuition": 
+I'll help analyze the financial projection for studying at California Institute of Integral Studies (CIIS). Let me break this down:
+
+Current Location Analysis (90057 - Los Angeles):
+- Median household income: ~$47,000
+This income level may qualify for significant financial aid and grants.
+
+CIIS Costs & Aid (2023-24 estimates):
+- Annual tuition: ~$22,000
+- Room & board (off-campus): ~$21,000
+- Books & supplies: ~$1,800
+- Total annual cost: ~$44,800
+
+As a California resident:
+- Potential federal grants (Pell): up to $7,395
+- State grants (Cal Grant): up to $9,220
+- Estimated net price after aid: ~$28,000/year
+
+15-Year Projection:
+
+Years 1-4 (School):
+- Annual debt accumulation: ~$28,000
+- Total projected debt after 4 years: ~$112,000
+
+Years 5-15 (Working in Abilene, TX):
+- Management occupation median salary: ~$75,000
+- 1-bedroom apartment rent: ~$900/month
+- Monthly loan payment (10-year plan): ~$1,200
+- Estimated monthly take-home after taxes: ~$4,800
+
+Key Factors:
+1. Student debt will be significant but manageable with expected management salary
+2. Abilene's lower cost of living helps with debt repayment
+3. Career choice in management provides good income potential
+4. California residency status offers better financial aid options
+
+Note: These are approximate figures and actual numbers may vary based on specific circumstances, economic changes, and individual financial aid packages.
+{
+    "netWorthEachYear": [
+        {"year": 1, "netWorth": -28000},
+        {"year": 2, "netWorth": -56000},
+        {"year": 3, "netWorth": -84000},
+        {"year": 4, "netWorth": -112000},
+        {"year": 5, "netWorth": -98400},
+        {"year": 6, "netWorth": -84800},
+        {"year": 7, "netWorth": -71200},
+        {"year": 8, "netWorth": -57600},
+        {"year": 9, "netWorth": -44000},
+        {"year": 10, "netWorth": -30400},
+        {"year": 11, "netWorth": -16800},
+        {"year": 12, "netWorth": -3200},
+        {"year": 13, "netWorth": 15400},
+        {"year": 14, "netWorth": 34000},
+        {"year": 15, "netWorth": 52600}
+    ],
+    "yearlyDetails": [
+        {
+            "year": 1,
+            "income": 0,
+            "expenses": 21000,
+            "tuition": 22000,
+            "loan": 28000
+        },
+        {
+            "year": 2,
+            "income": 0,
+            "expenses": 21000,
+            "tuition": 22000,
+            "loan": 28000
+        },
+        {
+            "year": 3,
+            "income": 0,
+            "expenses": 21000,
+            "tuition": 22000,
+            "loan": 28000
+        },
+        {
+            "year": 4,
+            "income": 0,
+            "expenses": 21000,
+            "tuition": 22000,
+            "loan": 28000
+        },
+        {
+            "year": 5,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": -14400
+        },
+        {
+            "year": 6,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": -14400
+        },
+        {
+            "year": 7,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": -14400
+        },
+        {
+            "year": 8,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": -14400
+        },
+        {
+            "year": 9,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": -14400
+        },
+        {
+            "year": 10,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": -14400
+        },
+        {
+            "year": 11,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": -14400
+        },
+        {
+            "year": 12,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": -14400
+        },
+        {
+            "year": 13,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": 0
+        },
+        {
+            "year": 14,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+            "loan": 0
+        },
+        {
+            "year": 15,
+            "income": 75000,
+            "expenses": 47400,
+            "tuition": 0,
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90057 median household income: 42318
+- Expected grants: 18500
+- Loan amount needed: 165700
+- Monthly loan payment: 1725
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 41425
+- Net worth change: -41425
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 32400
+- Loan payments: 20700
+- Savings rate: 5650
+- Net worth change: 5650
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Annual tuition: 21450
+- Living costs during school: 24680
+- Total 4-year cost: 184520
+
+2. FINANCIAL AID
+- Zipcode 90057 median household income: 42853
+- Expected grants: 18500
+- Loan amount needed: 166020
+- Monthly loan payment: 1850
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58240
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46130
+- Loan accumulation: 41505
+- Net worth change: -41505
+
+Years 5-15 (Career):
+- Annual income: 58240
+- Annual expenses: 31200
+- Loan payments: 22200
+- Savings rate: 4840
+- Net worth change: 4840
+1. EDUCATION COSTS
+- Institution: University of California-Berkeley
+- Program: Computer Science
+- Annual tuition: 44115
+- Living costs during school: 21250
+- Total 4-year cost: 261460
+
+2. FINANCIAL AID
+- Zipcode 90057 median household income: 41523
+- Expected grants: 18500
+- Loan amount needed: 187460
+- Monthly loan payment: 1875
+
+3. CAREER PROJECTION
+- Position: Software Developers
+- Location: Abilene, TX
+- Starting salary: 75800
+- Expected annual raises: 4.2
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 65365
+- Loan accumulation: 46865
+- Net worth change: -46865
+
+Years 5-15 (Career):
+- Annual income: 75800
+- Annual expenses: 38400
+- Loan payments: 22500
+- Savings rate: 14900
+- Net worth change: 14900
+Based on the financial data provided, here are 3 alternative plans that could offer better financial outcomes:
+
+Plan 1:
+- College: Texas Tech University
+- Field: Software Engineering
+- Career: Software Developer
+- Location: Austin, TX
+This would reduce tuition to ~$28,000/year, maintain strong tech job prospects, and offer higher starting salaries (85-90k) in a tech hub with moderate living costs.
+
+Plan 2:
+- College: Georgia Institute of Technology
+- Field: Computer Science
+- Career: Software Developer
+- Location: Atlanta, GA
+Lower tuition (~$31,000/year), top-ranked CS program, strong tech scene with major companies, and lower cost of living than California while maintaining competitive salaries (80-85k).
+
+Plan 3:
+- College: Arizona State University
+- Field: Information Technology
+- Career: DevOps Engineer
+- Location: Phoenix, AZ
+Significantly lower tuition (~$26,000/year), growing tech market, lower living costs, and competitive starting salaries (75-80k) with strong growth potential in an emerging tech hub.
+
+Each of these alternatives would reduce the total loan burden by $80,000-100,000 while maintaining strong career prospects in locations with better cost-of-living to income ratios than the original plan.
+1. EDUCATION COSTS
+- Institution: University of California-Berkeley
+- Program: Computer Science
+- Annual tuition: 44115
+- Living costs during school: 21220
+- Total 4-year cost: 261340
+
+2. FINANCIAL AID
+- Zipcode 90057 median household income: 41523
+- Expected grants: 18500
+- Loan amount needed: 187340
+- Monthly loan payment: 1985
+
+3. CAREER PROJECTION
+- Position: Software Developers
+- Location: Abilene, TX
+- Starting salary: 75800
+- Expected annual raises: 4.2
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 65335
+- Loan accumulation: 46835
+- Net worth change: -46835
+
+Years 5-15 (Career):
+- Annual income: 75800
+- Annual expenses: 38400
+- Loan payments: 23820
+- Savings rate: 13580
+- Net worth change: 13580
+1. EDUCATION COSTS
+- Institution: University of California-Berkeley
+- Program: Computer Science
+- Residency Status: Out-of-state
+- Annual tuition: 44776
+- Living costs during school: 23190
+- Total 4-year cost: 271864
+
+2. FINANCIAL AID
+- Zipcode 90057 median household income: 42318
+- Expected grants: 18500
+- Loan amount needed: 253364
+- Monthly loan payment: 2845
+
+3. CAREER PROJECTION
+- Position: Software Developers
+- Location: Abilene, TX
+- Starting salary: 75000
+- Expected annual raises: 4.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 67966
+- Loan accumulation: 63341
+- Net worth change: -63341
+
+Years 5-15 (Career):
+- Annual income: 75000
+- Annual expenses: 35400
+- Loan payments: 34140
+- Savings rate: 7.3
+- Net worth change: 5460
+1. EDUCATION COSTS
+Institution: University of California-Berkeley
+Program: Computer Science
+Residency Status: In-state (90057 is in California)
+Annual tuition: 14254
+Living costs during school: 19830
+Total 4-year cost: 136336
+
+2. FINANCIAL AID
+Zipcode 90057 median household income: 41523
+Expected grants: 18500
+Loan amount needed: 117836
+Monthly loan payment: 1232
+
+3. CAREER PROJECTION
+Position: Management Occupations
+Location: Los Angeles-Long Beach-Anaheim, CA
+Starting salary: 98460
+Expected annual raises: 4.2
+Housing (1 bedroom) monthly cost: 2385
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 34084
+Loan accumulation: 29459
+Net worth change: -34084
+
+Years 5-15 (Career):
+Annual income: 98460
+Annual expenses: 52620
+Loan payments: 14784
+Savings rate: 31056
+Net worth change: 31056
+{
+    "revisedExplanation": {
+        "1. EDUCATION COSTS": {
+            "Institution": "University of California-Berkeley",
+            "Program": "Computer Science",
+            "Annual tuition": 14254,
+            "Living costs during school": 21030, // Increased by $1200/year for pet expenses
+            "Total 4-year cost": 141136 // Adjusted for pet care
+        },
+        "2. FINANCIAL AID": {
+            "Expected grants": 18500,
+            "Loan amount needed": 122636, // Increased due to pet expenses
+            "Monthly loan payment": 1283 // Adjusted for higher loan
+        },
+        "3. CAREER PROJECTION": {
+            "Position": "Management Occupations",
+            "Location": "Los Angeles-Long Beach-Anaheim, CA",
+            "Starting salary": 98460,
+            "Housing + pet monthly cost": 2585 // Added $200/month for pet expenses
+        },
+        "4. YEARLY BREAKDOWN": {
+            "Year 1-4 (School)": {
+                "Annual expenses": 35284, // Including pet care
+                "Loan accumulation": 30659,
+                "Net worth change": -35284
+            },
+            "Years 5-15 (Career)": {
+                "Annual income": 98460,
+                "Annual expenses": 55020, // Including pet expenses
+                "Loan payments": 15396,
+                "Savings rate": 28044,
+                "Net worth change": 28044
+            }
+        }
+    },
+    "comparison": {
+        "Key Changes": [
+            "Added bulldog-related expenses: $1200/year during school, $2400/year during career",
+            "Living costs increased during school years",
+            "Higher loan amount needed due to pet expenses",
+            "Monthly housing costs increased to accommodate pet",
+            "Annual savings rate decreased by $3012 due to pet care expenses",
+            "15-year net worth projection reduced by approximately $36,144 due to ongoing pet care costs"
+        ],
+        "Financial Impact": "Having a bulldog as a pet reduces the long-term savings potential due to regular expenses including food, veterinary care, grooming, and pet insurance. Bulldogs specifically can have higher healthcare costs due to breed-specific health issues, which is reflected in the adjusted projections."
+    }
+}
+
+            You are Claude 3.5.
+            Considering the following personal preference or interest:
+            - Do you have a pet? If yes, what kind?: bulldog
+            
+            Revise the 15-year net worth projection based on this new information.
+            Also include a comparison between the original and revised explanation in the same JSON keys:
+            "revisedExplanation" and "comparison".
+
+            Original Explanation:
+            1. EDUCATION COSTS
+Institution: University of California-Berkeley
+Program: Computer Science
+Residency Status: In-state (90057 is in California)
+Annual tuition: 14254
+Living costs during school: 19830
+Total 4-year cost: 136336
+
+2. FINANCIAL AID
+Zipcode 90057 median household income: 41523
+Expected grants: 18500
+Loan amount needed: 117836
+Monthly loan payment: 1232
+
+3. CAREER PROJECTION
+Position: Management Occupations
+Location: Los Angeles-Long Beach-Anaheim, CA
+Starting salary: 98460
+Expected annual raises: 4.2
+Housing (1 bedroom) monthly cost: 2385
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 34084
+Loan accumulation: 29459
+Net worth change: -34084
+
+Years 5-15 (Career):
+Annual income: 98460
+Annual expenses: 52620
+Loan payments: 14784
+Savings rate: 31056
+Net worth change: 31056
+            
+1. EDUCATION COSTS
+- Institution: University of California-Berkeley
+- Program: Computer Science
+- Residency Status: In-state (90057 is in California)
+- Annual tuition: 14254
+- Living costs during school: 19830
+- Total 4-year cost: 136336
+
+2. FINANCIAL AID
+- Zipcode 90057 median household income: 41298
+- Expected grants: 18500
+- Loan amount needed: 117836
+- Monthly loan payment: 1232
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Los Angeles-Long Beach-Anaheim, CA
+- Starting salary: 98460
+- Expected annual raises: 4.2
+- Housing (1 bedroom) monthly cost: 2385
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 34084
+- Loan accumulation: 29459
+- Net worth change: -34084
+
+Years 5-15 (Career):
+- Annual income: 98460
+- Annual expenses: 52620
+- Loan payments: 14784
+- Savings rate: 31056
+- Net worth change: 31056
+1. EDUCATION COSTS
+Institution: University of California-Berkeley
+Program: Computer Science
+Residency Status: In-state (90057 is in California)
+Annual tuition: 14254
+Living costs during school: 19830
+Total 4-year cost: 136336
+
+2. FINANCIAL AID
+Zipcode 90057 median household income: 41368
+Expected grants: 18500
+Loan amount needed: 117836
+Monthly loan payment: 1232
+
+3. CAREER PROJECTION
+Position: Software Developers
+Location: Los Angeles-Long Beach-Anaheim, CA
+Starting salary: 95840
+Expected annual raises: 4.2
+Housing (1 bedroom) monthly cost: 2450
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 34084
+Loan accumulation: 29459
+Net worth change: -34084
+
+Years 5-15 (Career):
+Annual income: 95840
+Annual expenses: 52400
+Loan payments: 14784
+Savings rate: 30
+Net worth change: 28656
