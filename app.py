@@ -384,7 +384,7 @@ def main():
                 fig.add_trace(go.Scatter(
                     x=years,
                     y=original_data["data"]["netWorth"],
-                    name='Original Net Worth',
+                    name='Revised Net Worth',
                     line=dict(color='blue', dash='dot')
                 ))
                 
@@ -392,7 +392,7 @@ def main():
                 fig.add_trace(go.Scatter(
                     x=years,
                     y=revised_data["data"]["netWorth"],
-                    name='Revised Net Worth',
+                    name='Original Net Worth',
                     line=dict(color='blue')
                 ))
                 
