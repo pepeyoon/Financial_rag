@@ -87,92 +87,15 @@ def format_revised_projection(original_data, revised_data):
 
 def validate_projection_data(original_data, revised_data, transition_year):
     """Validate that projection data is consistent"""
-    # Ensure same number of years
     if len(original_data["data"]["years"]) != len(revised_data["data"]["years"]):
         raise ValueError("Year ranges don't match between projections")
         
-    # Ensure data before transition year matches
     for i in range(transition_year - 1):
         if (original_data["data"]["netWorth"][i] != revised_data["data"]["netWorth"][i] or
             original_data["data"]["income"][i] != revised_data["data"]["income"][i]):
             raise ValueError("Pre-transition data should match original projection")
 
     return True
-
-def calculate_transition_impact(original_data, transition_year, new_institution, new_field, new_area, new_occupation, new_zipcode, new_house):
-    """
-    Calculate financial impact of career/education transition
-    """
-    try:
-        # Generate revised projection prompt
-        transition_prompt = f"""
-        Calculate financial impact of career transition in year {transition_year} with:
-
-        1. EDUCATION COSTS
-        - Institution: {new_institution}
-        - Program: {new_field}
-        - Residency Status: [determine if {new_zipcode} is in-state or out-of-state]
-        - Retraining costs: [exact number]
-        - Living costs during transition: [exact number]
-        - Total transition cost: [exact number]
-
-        2. NEW CAREER PROJECTION
-        - Position: {new_occupation}
-        - Location: {new_area}
-        - Starting salary post-transition: [exact number]
-        - Expected annual raises: [percentage]
-        - Housing ({new_house} bedroom) monthly cost: [exact number]
-
-        3. YEARLY BREAKDOWN
-        Pre-transition years (1-{transition_year}):
-        [Use original projection values]
-
-        Transition year {transition_year}:
-        - Transition costs: [exact number]
-        - Income change: [exact number]
-        - Net worth impact: [exact number]
-
-        Post-transition years ({transition_year+1}-15):
-        - Annual income: [exact number]
-        - Annual expenses: [exact number]
-        - Savings rate: [exact number]
-        - Net worth growth: [exact number]
-
-        4. IMPACT ANALYSIS
-        - List key financial changes
-        - Calculate total net worth difference
-        - Identify break-even point
-        """
-
-        # Get revised projection
-        revised_response = get_llm_response(transition_prompt)
-        revised_data = parse_llm_response(revised_response)
-
-        # Validate data consistency
-        validate_projection_data(original_data, revised_data, transition_year)
-
-        # Format response
-        transition_impact = {
-            "data": {
-                "years": list(range(1, 16)),
-                "netWorth": revised_data["netWorthProgression"],
-                "income": revised_data["incomeProgression"]
-            },
-            "summary": {
-                "totalNetWorth": revised_data["totalNetWorth"],
-                "transitionCost": revised_data["transitionCost"]
-            },
-            "impact": {
-                "changes": revised_data["keyChanges"],
-                "breakEvenYear": revised_data["breakEvenYear"]
-            }
-        }
-
-        return transition_impact
-
-    except Exception as e:
-        raise ValueError(f"Error calculating transition impact: {str(e)}")
-
 
 
 def main():
@@ -444,8 +367,8 @@ def main():
                 }}
             }}
 
-            Base this on the original projection but show meaningful changes based on the preferences
-            and also make sure the changes are shown in the chart and in new net worth:
+            Based on the original projection, ensure that the changes reflected are meaningful and align with the preferences. 
+            Additionally, compare these changes to ensure they differ from the previous projections below:
             {st.session_state["explanation_response"]}
             """
 
