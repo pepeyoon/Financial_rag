@@ -551,7 +551,8 @@ def main():
 
             if st.button("Calculate Path Change Impact"):
                 transition_prompt = f"""
-                Generate a financial projection showing impact of career/education change:
+                Generate a financial projection showing impact of career/education change
+                make sure new path shows the negative or positive impact on the net worth and other financial metrics:
                 Original Path (Years 1-{transition_year-1}):
                 - Institution: {institution}
                 - Field: {field}
