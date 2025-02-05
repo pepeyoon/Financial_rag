@@ -401,13 +401,13 @@ def main():
                     fig.add_trace(go.Scatter(
                         x=years,
                         y=original_data["data"][metric],
-                        name=f'Original {metric.title()}',
+                        name=f'Revised {metric.title()}',
                         line=dict(color=color, dash='dot')
                     ))
                     fig.add_trace(go.Scatter(
                         x=years,
                         y=revised_data["data"][metric],
-                        name=f'Revised {metric.title()}',
+                        name=f'Original {metric.title()}',
                         line=dict(color=color)
                     ))
                 
