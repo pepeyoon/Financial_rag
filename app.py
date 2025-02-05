@@ -527,7 +527,7 @@ def main():
                     fig.add_trace(go.Scatter(
                         x=filtered_years,
                         y=filtered_original_net_worth,
-                        name="Original Path",
+                        name="New Path",
                         mode="lines+markers",
                         line=dict(color="blue", width=2, dash="dash")
                     ))
@@ -536,7 +536,7 @@ def main():
                     fig.add_trace(go.Scatter(
                         x=filtered_years,
                         y=filtered_transition_net_worth,
-                        name="New Path",
+                        name="Original Path",
                         mode="lines+markers",
                         line=dict(color="green", width=3)
                     ))
