@@ -179,10 +179,6 @@ def main():
     st.title("15 Year Net Worth Projection")
     load_dotenv()
     api_key = os.getenv("ANTHROPIC_API_KEY", "")
-    if "responses_history" not in st.session_state:
-        st.session_state["responses_history"] = []
-    if "current_projection" not in st.session_state:
-        st.session_state["current_projection"] = None
 
     df_edu, df_occ = load_data()
     
@@ -409,43 +405,31 @@ def main():
             response = st.text_input(question)
 
         if st.button("Revise Projection"):
-            # Add current response to history
-            st.session_state["responses_history"].append({
-                "question": question,
-                "response": response
-            })
-            
-            # Build cumulative context
-            context = "\n".join([
-                f"- {item['question']}: {item['response']}" 
-                for item in st.session_state["responses_history"]
-            ])
-            
             additional_prompt = f"""
-            Considering these personal preferences or interests:
-            {context}
+            Considering the following personal preference or interest:
+            - {question}: {response}
             
             Generate a financial projection as valid JSON with exactly this structure:
             {{
                 "data": {{
                     "years": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
-                    "netWorth": [list of 15 numbers showing significant changes based on preferences],
-                    "income": [list of 15 numbers showing significant changes based on preferences],
-                    "expenses": [list of 15 numbers showing significant changes based on preferences],
-                    "loans": [list of 15 numbers showing significant changes based on preferences]
+                    "netWorth": [list of 15 numbers],
+                    "income": [list of 15 numbers],
+                    "expenses": [list of 15 numbers],
+                    "loans": [list of 15 numbers]
                 }},
                 "summary": {{
                     "totalNetWorth": number,
                     "peakNetWorth": number,
+                    "averageGrowth": number
                 }},
                 "impact": {{
-                    "changes": [list of specific changes based on preferences],
-                    "financialEffect": [list of financial impacts]
+                    "changes": [list of strings],
+                    "financialEffect": [list of strings]
                 }}
             }}
 
-            Base this on the original projection but show meaningful changes based on the preferences
-            and also make sure the changes are shown in the chart and in new net worth:
+            Use the original data for comparison:
             {st.session_state["explanation_response"]}
             """
 
@@ -455,64 +439,83 @@ def main():
                 original_data = json.loads(st.session_state["chart_response"])
                 years = original_data["data"]["years"]
                 
+                # Create comparison chart
                 fig = go.Figure()
                 
-                # Original projections (dotted lines)
+                # Original projections
                 fig.add_trace(go.Scatter(
                     x=years,
                     y=original_data["data"]["netWorth"],
-                    name='Original Net Worth',
-                    line=dict(color='blue', dash='dot')
+                    name="Original Net Worth",
+                    mode="lines+markers",
+                    line=dict(color="blue", width=2, dash="dash")
                 ))
                 
-                # Revised projections (solid lines)
+                fig.add_trace(go.Bar(
+                    x=years,
+                    y=original_data["data"]["income"],
+                    name="Original Income",
+                    marker_color="lightblue",
+                    opacity=0.6
+                ))
+                
+                # Revised projections
                 fig.add_trace(go.Scatter(
                     x=years,
                     y=revised_data["data"]["netWorth"],
-                    name='Revised Net Worth',
-                    line=dict(color='blue')
+                    name="Revised Net Worth",
+                    mode="lines+markers",
+                    line=dict(color="green", width=3)
                 ))
                 
-                # Add other metrics similarly
-                for metric, color in [("income", "green"), ("expenses", "red")]:
-                    fig.add_trace(go.Scatter(
-                        x=years,
-                        y=original_data["data"][metric],
-                        name=f'Original {metric.title()}',
-                        line=dict(color=color, dash='dot')
-                    ))
-                    fig.add_trace(go.Scatter(
-                        x=years,
-                        y=revised_data["data"][metric],
-                        name=f'Revised {metric.title()}',
-                        line=dict(color=color)
-                    ))
+                fig.add_trace(go.Bar(
+                    x=years,
+                    y=revised_data["data"]["income"],
+                    name="Revised Income",
+                    marker_color="lightgreen",
+                    opacity=0.6
+                ))
                 
                 fig.update_layout(
-                    title='15-Year Financial Projection Comparison',
-                    xaxis_title='Years',
-                    yaxis_title='Amount ($)',
+                    title="Original vs Revised 15-Year Financial Projection",
+                    xaxis_title="Year",
+                    yaxis_title="Amount ($)",
+                    barmode="group",
+                    template="plotly_white",
                     showlegend=True
                 )
                 
                 st.plotly_chart(fig)
                 
-                # Show impact analysis
-                st.write("### Impact Analysis")
-                for change, effect in zip(
-                    revised_data["impact"]["changes"], 
-                    revised_data["impact"]["financialEffect"]
-                ):
-                    st.write(f"- **Change**: {change}")
-                    st.write(f"  **Effect**: {effect}")
-                    
-                # Update current projection
-                st.session_state["current_projection"] = revised_data
+                # Display comparison metrics
+                col1, col2 = st.columns(2)
+                with col1:
+                    diff_worth = revised_data["summary"]["totalNetWorth"] - original_data["summary"]["totalNetWorth"]
+                    st.metric("Net Worth Change", 
+                            f"${revised_data['summary']['totalNetWorth']:,.0f}",
+                            f"{diff_worth:,.0f}")
+                with col2:
+                    diff_peak = revised_data["summary"]["peakNetWorth"] - original_data["summary"]["peakNetWorth"]
+                    st.metric("Peak Worth Change",
+                            f"${revised_data['summary']['peakNetWorth']:,.0f}",
+                            f"{diff_peak:,.0f}")
+
                 
-            except json.JSONDecodeError:
-                st.error("Failed to parse the projection data")
+                # Display impact analysis
+                st.subheader("Impact Analysis")
+                for change in revised_data["impact"]["changes"]:
+                    st.write(f"• {change}")
+                
+                st.subheader("Financial Effects")
+                for effect in revised_data["impact"]["financialEffect"]:
+                    st.write(f"• {effect}")
+                    
+            except json.JSONDecodeError as e:
+                st.error(f"Invalid JSON format: {str(e)}")
+            except KeyError as e:
+                st.error(f"Missing required data: {str(e)}")
             except Exception as e:
-                st.error(f"An error occurred: {str(e)}")
+                st.error(f"Error: {str(e)}")
 
         if st.button("Change Career/Education Path"):
             st.session_state.show_transition = True

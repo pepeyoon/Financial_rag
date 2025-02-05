@@ -1987,3 +1987,1649 @@ Annual expenses: 52400
 Loan payments: 14784
 Savings rate: 30
 Net worth change: 28656
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21780
+- Living costs during school: 19200
+- Total 4-year cost: 163920
+
+2. FINANCIAL AID
+- Zipcode 90057 median household income: 42341
+- Expected grants: 18500
+- Loan amount needed: 145420
+- Monthly loan payment: 1580
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 40980
+- Loan accumulation: 36355
+- Net worth change: -36355
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 29400
+- Loan payments: 18960
+- Savings rate: 10390
+- Net worth change: 8520
+{
+    "revisedExplanation": {
+        "1. EDUCATION COSTS": {
+            "Same as original"
+        },
+        "2. FINANCIAL AID": {
+            "Same as original"
+        },
+        "3. CAREER PROJECTION": {
+            "Same as original"
+        },
+        "4. YEARLY BREAKDOWN": {
+            "Year 1-4 (School)": {
+                "Annual expenses": 44180,
+                "Additional pet expenses": +3200,
+                "Loan accumulation": 39555,
+                "Net worth change": -39555
+            },
+            "Years 5-15 (Career)": {
+                "Annual income": 58750,
+                "Annual expenses": 32600,
+                "Additional pet expenses": +3200,
+                "Loan payments": 18960,
+                "Savings rate": 7190,
+                "Net worth change": 5320
+            }
+        }
+    },
+    "comparison": {
+        "mainChanges": [
+            "Added annual bulldog expenses of $3,200 ($266.67/month) including:",
+            "- Food and treats: $720/year",
+            "- Veterinary care and medications: $1,500/year",
+            "- Grooming: $480/year",
+            "- Toys and supplies: $300/year",
+            "- Pet insurance: $200/year"
+        ],
+        "financialImpact": [
+            "School years: Additional $3,200 in annual expenses increases loan needs",
+            "Career years: Reduced annual savings by $3,200 from $10,390 to $7,190",
+            "15-year net worth impact: Decreased by approximately $38,400 due to cumulative pet expenses"
+        ]
+    }
+}
+
+            You are Claude 3.5.
+            Considering the following personal preference or interest:
+            - Do you have a pet? If yes, what kind?: bull dog
+            
+            Revise the 15-year net worth projection based on this new information.
+            Also include a comparison between the original and revised explanation in the same JSON keys:
+            "revisedExplanation" and "comparison".
+
+            Original Explanation:
+            1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21780
+- Living costs during school: 19200
+- Total 4-year cost: 163920
+
+2. FINANCIAL AID
+- Zipcode 90057 median household income: 42341
+- Expected grants: 18500
+- Loan amount needed: 145420
+- Monthly loan payment: 1580
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 40980
+- Loan accumulation: 36355
+- Net worth change: -36355
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 29400
+- Loan payments: 18960
+- Savings rate: 10390
+- Net worth change: 8520
+            
+1. EDUCATION COSTS
+Institution: California State University-Monterey Bay
+Program: Computer Science
+Residency Status: In-state (90020 is Los Angeles, CA)
+Annual tuition: 7143
+Living costs during school: 15684
+Total 4-year cost: 91308
+
+2. FINANCIAL AID
+Zipcode 90020 median household income: 48246
+Expected grants: 6500
+Loan amount needed: 84808
+Monthly loan payment: 872
+
+3. CAREER PROJECTION
+Position: Software Developers
+Location: Abilene, TX
+Starting salary: 68420
+Expected annual raises: 3.5
+Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 22827
+Loan accumulation: 21202
+Net worth change: -21202
+
+Years 5-15 (Career):
+Annual income: 68420
+Annual expenses: 31240
+Loan payments: 10464
+Savings rate: 26716
+Net worth change: 293876
+{
+    "revisedExplanation": {
+        "1. EDUCATION COSTS": {
+            "note": "No direct impact from pet ownership on education costs"
+        },
+        "2. FINANCIAL AID": {
+            "note": "Financial aid calculations remain unchanged"
+        },
+        "3. CAREER PROJECTION": {
+            "note": "Base career progression remains same, adjusted expenses for pet care"
+        },
+        "4. YEARLY BREAKDOWN": {
+            "netWorthProgression": [-21202, -42404, -63606, -84808, -58092, -31376, -4660, 22056, 48772, 75488, 102204, 128920, 155636, 182352, 209068],
+            "incomeProgression": [0, 0, 0, 0, 68420, 70815, 73294, 75859, 78514, 81262, 84106, 87050, 90097, 93250, 96514],
+            "expenseProgression": [24827, 24827, 24827, 24827, 33240, 33240, 33240, 33240, 33240, 33240, 33240, 33240, 33240, 33240, 33240],
+            "totalNetWorth": 209068,
+            "peakNetWorth": 209068,
+            "averageGrowth": 19571
+        }
+    },
+    "comparison": {
+        "mainChanges": [
+            "Added $2,000 annual pet care expenses for bulldog (food, vet care, supplies)",
+            "Increased monthly expenses during school years by $167",
+            "Increased post-graduation monthly expenses by $167"
+        ],
+        "financialImpact": [
+            "Total 15-year net worth reduced by approximately $30,000 due to pet expenses",
+            "Annual savings rate reduced by $2,000",
+            "Monthly budget needs to account for regular pet care costs",
+            "Emergency fund should be increased to cover potential pet medical expenses"
+        ]
+    }
+}
+
+                Considering the following personal preference or interest:
+                - Do you have a pet? If yes, what kind?: bull dog
+
+                Provide a revised 15-year financial projection in valid JSON format with this exact structure:
+                {
+                    "revisedExplanation": {
+                        "1. EDUCATION COSTS": { },
+                        "2. FINANCIAL AID": { },
+                        "3. CAREER PROJECTION": { },
+                        "4. YEARLY BREAKDOWN": {
+                            "netWorthProgression": [15 numbers],
+                            "incomeProgression": [15 numbers],
+                            "expenseProgression": [15 numbers],
+                            "totalNetWorth": number,
+                            "peakNetWorth": number,
+                            "averageGrowth": number
+                        }
+                    },
+                    "comparison": {
+                        "mainChanges": [list of strings],
+                        "financialImpact": [list of strings]
+                    }
+                }
+
+                Original data for reference:
+                1. EDUCATION COSTS
+Institution: California State University-Monterey Bay
+Program: Computer Science
+Residency Status: In-state (90020 is Los Angeles, CA)
+Annual tuition: 7143
+Living costs during school: 15684
+Total 4-year cost: 91308
+
+2. FINANCIAL AID
+Zipcode 90020 median household income: 48246
+Expected grants: 6500
+Loan amount needed: 84808
+Monthly loan payment: 872
+
+3. CAREER PROJECTION
+Position: Software Developers
+Location: Abilene, TX
+Starting salary: 68420
+Expected annual raises: 3.5
+Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 22827
+Loan accumulation: 21202
+Net worth change: -21202
+
+Years 5-15 (Career):
+Annual income: 68420
+Annual expenses: 31240
+Loan payments: 10464
+Savings rate: 26716
+Net worth change: 293876
+                
+1. EDUCATION COSTS
+Institution: California Institute of Integral Studies
+Program: Ethnic, Cultural Minority, Gender, and Group Studies
+Residency Status: In-state
+Annual tuition: 21780
+Living costs during school: 19200
+Total 4-year cost: 163920
+
+2. FINANCIAL AID
+Zipcode 90505 median household income: 89632
+Expected grants: 12500
+Loan amount needed: 151420
+Monthly loan payment: 1580
+
+3. CAREER PROJECTION
+Position: Management Occupations
+Location: Abilene, TX
+Starting salary: 58240
+Expected annual raises: 3.5
+Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 40980
+Loan accumulation: 37855
+Net worth change: -40980
+
+Years 5-15 (Career):
+Annual income: 58240
+Annual expenses: 29400
+Loan payments: 18960
+Savings rate: 16.9
+Net worth change: 9880
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21780
+- Living costs during school: 19200
+- Total 4-year cost: 163920
+
+2. FINANCIAL AID
+- Zipcode 90057 median household income: 37241
+- Expected grants: 12500
+- Loan amount needed: 151420
+- Monthly loan payment: 1580
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 40980
+- Loan accumulation: 37855
+- Net worth change: -37855
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 29400
+- Loan payments: 18960
+- Savings rate: 10390
+- Net worth change: 8650
+1. EDUCATION COSTS
+Institution: University of California-Santa Barbara
+Program: Computer Science
+Residency Status: In-state (90020 is in Los Angeles, CA)
+Annual tuition: 14100
+Living costs during school: 17800
+Total 4-year cost: 127600
+
+2. FINANCIAL AID
+Zipcode 90020 median household income: 58246
+Expected grants: 12500
+Loan amount needed: 87600
+Monthly loan payment: 912
+
+3. CAREER PROJECTION
+Position: Software Developers
+Location: Los Angeles-Long Beach-Anaheim, CA
+Starting salary: 95400
+Expected annual raises: 4.2
+Housing (1 bedroom) monthly cost: 2450
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 31900
+Loan accumulation: 21900
+Net worth change: -21900
+
+Years 5-15 (Career):
+Annual income: 95400
+Annual expenses: 52800
+Loan payments: 10944
+Savings rate: 33.3
+Net worth change: 31656
+Based on the provided information, here are 3 alternative plans that could potentially offer better financial outcomes:
+
+Plan 1:
+- College: Cal State Long Beach (lower tuition at ~$7,000/year)
+- Field: Software Engineering
+- Career: Software Developer
+- Location: Austin, TX
+Benefit: Lower education costs, no state income tax, and housing costs ~40% lower than LA while maintaining competitive tech salaries.
+
+Plan 2:
+- College: Arizona State University
+- Field: Data Science
+- Career: Data Engineer/Scientist
+- Location: Phoenix, AZ
+Benefit: Lower cost of living, growing tech hub, in-state tuition around $11,000, and housing costs about half of LA.
+
+Plan 3:
+- College: Georgia Tech
+- Field: Computer Engineering
+- Career: Software Engineer
+- Location: Atlanta, GA
+Benefit: Top-tier tech education at lower cost (~$12,000/year for in-state), thriving tech scene, significantly lower living costs than LA, and strong job market with major tech companies.
+
+Each of these alternatives would reduce the initial debt burden while maintaining strong career prospects in tech hubs with better cost-of-living ratios than Los Angeles.
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90052 median household income: 65847
+- Expected grants: 12500
+- Loan amount needed: 134200
+- Monthly loan payment: 1485
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 895
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 33550
+- Net worth change: -33550
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 32400
+- Loan payments: 17820
+- Savings rate: 8530
+- Net worth change: 8530
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state (90020 is in California)
+- Annual tuition: 21780
+- Living costs during school: 19200
+- Total 4-year cost: 163920
+
+2. FINANCIAL AID
+- Zipcode 90020 median household income: 58246
+- Expected grants: 12500
+- Loan amount needed: 151420
+- Monthly loan payment: 1580
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 65400
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 40980
+- Loan accumulation: 37855
+- Net worth change: -37855
+
+Years 5-15 (Career):
+- Annual income: 65400
+- Annual expenses: 29400
+- Loan payments: 18960
+- Savings rate: 17040
+- Net worth change: 15600
+1. EDUCATION COSTS
+- Institution: University of California-Santa Barbara
+- Program: Computer Science
+- Residency Status: Out-of-state
+- Annual tuition: 46847
+- Living costs during school: 17781
+- Total 4-year cost: 258512
+
+2. FINANCIAL AID
+- Zipcode 90020 median household income: 53246
+- Expected grants: 15000
+- Loan amount needed: 198512
+- Monthly loan payment: 2154
+
+3. CAREER PROJECTION
+- Position: Software Developers
+- Location: Abilene, TX
+- Starting salary: 75000
+- Expected annual raises: 4.5
+- Housing (1 bedroom) monthly cost: 895
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 64628
+- Loan accumulation: 49628
+- Net worth change: -49628
+
+Years 5-15 (Career):
+- Annual income: 75000
+- Annual expenses: 35400
+- Loan payments: 25848
+- Savings rate: 18
+- Net worth change: 13752
+1. EDUCATION COSTS
+Institution: California Institute of Integral Studies
+Program: Ethnic, Cultural Minority, Gender, and Group Studies
+Residency Status: In-state
+Annual tuition: 21780
+Living costs during school: 19200
+Total 4-year cost: 163920
+
+2. FINANCIAL AID
+Zipcode 90020 median household income: 58234
+Expected grants: 12500
+Loan amount needed: 151420
+Monthly loan payment: 1580
+
+3. CAREER PROJECTION
+Position: Management Occupations
+Location: Abilene, TX
+Starting salary: 62400
+Expected annual raises: 3.5
+Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 40980
+Loan accumulation: 37855
+Net worth change: -40980
+
+Years 5-15 (Career):
+Annual income: 62400
+Annual expenses: 29400
+Loan payments: 18960
+Savings rate: 14040
+Net worth change: 14040
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90052 median household income: 65847
+- Expected grants: 12500
+- Loan amount needed: 134200
+- Monthly loan payment: 1485
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 895
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 33550
+- Net worth change: -33550
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 32400
+- Loan payments: 17820
+- Savings rate: 8530
+- Net worth change: 8530
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24800
+- Total 4-year cost: 185000
+
+2. FINANCIAL AID
+- Zipcode 90053 median household income: 52341
+- Expected grants: 12500
+- Loan amount needed: 135000
+- Monthly loan payment: 1425
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58200
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46250
+- Loan accumulation: 33750
+- Net worth change: -33750
+
+Years 5-15 (Career):
+- Annual income: 58200
+- Annual expenses: 32400
+- Loan payments: 17100
+- Savings rate: 8700
+- Net worth change: 8700
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: Out-of-state (12424 is NY zipcode)
+- Annual tuition: 21450
+- Living costs during school: 23800
+- Total 4-year cost: 181000
+
+2. FINANCIAL AID
+- Zipcode 12424 median household income: 68250
+- Expected grants: 12500
+- Loan amount needed: 168500
+- Monthly loan payment: 1850
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58400
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 45250
+- Loan accumulation: 42125
+- Net worth change: -42125
+
+Years 5-15 (Career):
+- Annual income: 58400
+- Annual expenses: 32400
+- Loan payments: 22200
+- Savings rate: 3800
+- Net worth change: 3800
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: Out-of-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 95503 median household income: 52847
+- Expected grants: 12500
+- Loan amount needed: 171700
+- Monthly loan payment: 1850
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 42925
+- Net worth change: -42925
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 31200
+- Loan payments: 22200
+- Savings rate: 5350
+- Net worth change: 5350
+Based on the financial and career data provided, here are 3 alternative plans that could offer better financial outcomes:
+
+Plan 1:
+- College: San Francisco State University
+- Field: Business Administration
+- Career: Financial Analyst
+- Location: Sacramento, CA
+* Lower tuition ($7,484 for in-state), similar urban environment, higher starting salary (~$65,000), and lower cost of living than original plan.
+
+Plan 2:
+- College: Texas Tech University
+- Field: Computer Science
+- Career: Software Developer
+- Location: Austin, TX
+* More affordable tuition ($11,852 for out-of-state), strong tech job market, higher starting salary (~$75,000), and maintains desired Texas location.
+
+Plan 3:
+- College: Arizona State University
+- Field: Healthcare Administration
+- Career: Healthcare Manager
+- Location: Phoenix, AZ
+* Moderate tuition ($12,698 for out-of-state), growing healthcare sector, competitive starting salary (~$62,000), and similar climate to original location with lower living costs.
+
+Each of these alternatives would reduce the total loan burden significantly while potentially offering higher starting salaries and better long-term growth opportunities in their respective fields.
+1. EDUCATION COSTS
+Institution: California Institute of Integral Studies
+Program: Ethnic, Cultural Minority, Gender, and Group Studies
+Residency Status: In-state
+Annual tuition: 21780
+Living costs during school: 19400
+Total 4-year cost: 164720
+
+2. FINANCIAL AID
+Zipcode 90053 median household income: 48650
+Expected grants: 12500
+Loan amount needed: 152220
+Monthly loan payment: 1585
+
+3. CAREER PROJECTION
+Position: Management Occupations
+Location: Abilene, TX
+Starting salary: 58200
+Expected annual raises: 3.5
+Housing monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 41180
+Loan accumulation: 38055
+Net worth change: -38055
+
+Years 5-15 (Career):
+Annual income: 58200
+Annual expenses: 29400
+Loan payments: 19020
+Savings rate: 9780
+Net worth change: 8160
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: Out-of-state
+- Annual tuition: 21450
+- Living costs during school: 24680
+- Total 4-year cost: 184520
+
+2. FINANCIAL AID
+- Zipcode 90352 median household income: 62145
+- Expected grants: 12500
+- Loan amount needed: 172020
+- Monthly loan payment: 1845
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58240
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46130
+- Loan accumulation: 43005
+- Net worth change: -43005
+
+Years 5-15 (Career):
+- Annual income: 58240
+- Annual expenses: 32400
+- Loan payments: 22140
+- Savings rate: 3700
+- Net worth change: 44400
+1. EDUCATION COSTS
+Institution: California Institute of Integral Studies
+Program: Ethnic, Cultural Minority, Gender, and Group Studies
+Residency Status: In-state
+Annual tuition: 21450
+Living costs during school: 24600
+Total 4-year cost: 184200
+
+2. FINANCIAL AID
+Zipcode 90053 median household income: 52314
+Expected grants: 12500
+Loan amount needed: 171700
+Monthly loan payment: 1850
+
+3. CAREER PROJECTION
+Position: Management Occupations
+Location: Abilene, TX
+Starting salary: 58200
+Expected annual raises: 3.5
+Housing (1 bedroom) monthly cost: 875
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 46050
+Loan accumulation: 42925
+Net worth change: -42925
+
+Years 5-15 (Career):
+Annual income: 58200
+Annual expenses: 32400
+Loan payments: 22200
+Savings rate: 3600
+Net worth change: 3600
+Based on the financial data, here are 3 alternative plans that could provide better financial outcomes:
+
+Plan 1:
+- College: San Diego State University (lower tuition ~$7,500/year)
+- Field: Business Administration
+- Career: Financial Manager
+- Location: Austin, TX
+- Benefits: Higher starting salary (~$75,000), lower education costs, strong job market
+
+Plan 2:
+- College: Texas Tech University (tuition ~$11,000/year)
+- Field: Computer Science
+- Career: Software Developer
+- Location: Dallas-Fort Worth, TX
+- Benefits: High demand field, better salary progression (~$85,000 starting), lower cost of living
+
+Plan 3:
+- College: Arizona State University (tuition ~$12,000/year)
+- Field: Engineering
+- Career: Industrial Engineer
+- Location: Phoenix, AZ
+- Benefits: Strong STEM program, competitive starting salary (~$70,000), growing tech hub
+
+Each of these alternatives would result in:
+- Lower student loan debt (≈$60-80K vs current $171K)
+- Higher starting salaries
+- Better long-term financial outlook
+- More favorable job markets
+- Lower cost of living areas with good career growth potential
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90032 median household income: 58742
+- Expected grants: 12500
+- Loan amount needed: 134200
+- Monthly loan payment: 1485
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 62400
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 33550
+- Net worth change: -33550
+
+Years 5-15 (Career):
+- Annual income: 62400
+- Annual expenses: 31200
+- Loan payments: 17820
+- Savings rate: 13380
+- Net worth change: 13380
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90053 median household income: 52341
+- Expected grants: 12500
+- Loan amount needed: 134200
+- Monthly loan payment: 1485
+
+3. CAREER PROJECTION
+- Position: Property Appraisers and Assessors
+- Location: Abilene, TX
+- Starting salary: 51240
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 33550
+- Net worth change: -33550
+
+Years 5-15 (Career):
+- Annual income: 51240
+- Annual expenses: 31200
+- Loan payments: 17820
+- Savings rate: 2220
+- Net worth change: 26640
+Here are 3 alternative plans based on better financial outcomes:
+
+Plan 1:
+- College: San Diego State University
+- Field: Business Administration/Finance
+- Career: Financial Analyst
+- Location: Austin, TX
+* Lower tuition ($7,510/year), higher starting salary ($65,000), better job market, and lower cost of living ratio
+
+Plan 2:
+- College: Arizona State University
+- Field: Computer Science
+- Career: Software Developer
+- Location: Raleigh, NC
+* Competitive tuition ($11,338/year), high starting salary ($75,000+), growing tech hub, moderate living costs
+
+Plan 3:
+- College: Texas A&M University
+- Field: Engineering
+- Career: Mechanical Engineer
+- Location: Houston, TX
+* Reasonable tuition ($13,012/year), strong starting salary ($70,000+), large job market, established industry presence
+
+Each of these alternatives offers:
+- Lower total education costs
+- Higher starting salaries
+- Better career growth potential
+- More favorable cost of living ratios
+- Faster loan repayment timeline
+- Stronger long-term financial outlook
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state (90035 is Los Angeles, CA)
+- Annual tuition: 21780
+- Living costs during school: 24600
+- Total 4-year cost: 185520
+
+2. FINANCIAL AID
+- Zipcode 90035 median household income: 86742
+- Expected grants: 12500
+- Loan amount needed: 173020
+- Monthly loan payment: 1805
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 68400
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46380
+- Loan accumulation: 43255
+- Net worth change: -43255
+
+Years 5-15 (Career):
+- Annual income: 68400
+- Annual expenses: 35400
+- Loan payments: 21660
+- Savings rate: 16.6
+- Net worth change: 11340
+1. EDUCATION COSTS
+- Institution: University of California-Berkeley
+- Program: Computer Science
+- Residency Status: In-state (90053 is Los Angeles, CA)
+- Annual tuition: 14312
+- Living costs during school: 19830
+- Total 4-year cost: 136568
+
+2. FINANCIAL AID
+- Zipcode 90053 median household income: 62843
+- Expected grants: 18500
+- Loan amount needed: 118068
+- Monthly loan payment: 1275
+
+3. CAREER PROJECTION
+- Position: Software Developers
+- Location: Los Angeles-Long Beach-Anaheim, CA
+- Starting salary: 98750
+- Expected annual raises: 4.2
+- Housing (1 bedroom) monthly cost: 2385
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 34142
+- Loan accumulation: 29517
+- Net worth change: -34142
+
+Years 5-15 (Career):
+- Annual income: 98750
+- Annual expenses: 52640
+- Loan payments: 15300
+- Savings rate: 31250
+- Net worth change: 30810
+Here are 3 alternative plans based on the data:
+
+Plan 1:
+- College: Cal Poly San Luis Obispo
+- Field: Software Engineering
+- Career: Software Engineer
+- Location: San Diego, CA
+* Lower tuition ($10,071/year), similar career prospects, better work-life balance, and lower cost of living compared to LA
+
+Plan 2:
+- College: University of Washington
+- Field: Data Science
+- Career: Data Scientist/Analyst
+- Location: Seattle, WA
+* Strong tech hub, competitive salaries, no state income tax, though higher initial living costs but better long-term savings potential
+
+Plan 3:
+- College: Arizona State University
+- Field: Computer Information Systems
+- Career: IT Project Manager
+- Location: Phoenix, AZ
+* Significantly lower tuition and living costs, growing tech market, much lower housing costs, and better work-life balance with similar career growth potential
+
+Each of these alternatives offers lower total education costs while maintaining strong career prospects in tech-focused regions with varying cost-of-living advantages.
+1. EDUCATION COSTS
+Institution: University of California-Berkeley
+Program: Computer Science
+Residency Status: Out-of-state
+Annual tuition: 44115
+Living costs during school: 21250
+Total 4-year cost: 261460
+
+2. FINANCIAL AID
+Zipcode 90020 median household income: 58234
+Expected grants: 15000
+Loan amount needed: 246460
+Monthly loan payment: 2575
+
+3. CAREER PROJECTION
+Position: Data Scientists
+Location: Los Angeles-Long Beach-Anaheim, CA
+Starting salary: 115000
+Expected annual raises: 4.5
+Housing (1 bedroom) monthly cost: 2450
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 65365
+Loan accumulation: 61615
+Net worth change: -61615
+
+Years 5-15 (Career):
+Annual income: 115000
+Annual expenses: 58800
+Loan payments: 30900
+Savings rate: 21900
+Net worth change: 25300
+Here are 3 alternative plans that could improve the financial outlook:
+
+Plan 1:
+- College: California State University-Long Beach
+- Field: Data Analytics
+- Career: Business Intelligence Analyst
+- Location: Sacramento, CA
+This would reduce tuition to $18,000/year, lower living costs, and still provide a starting salary around $85,000 with better cost of living ratio.
+
+Plan 2:
+- College: Georgia Institute of Technology
+- Field: Computer Science
+- Career: Software Engineer
+- Location: Atlanta, GA
+Similar quality education at lower out-of-state tuition ($33,000), much lower living costs, and competitive tech salaries ($95,000+) with significantly cheaper housing.
+
+Plan 3:
+- College: University of Washington-Seattle
+- Field: Information Systems
+- Career: Systems Analyst
+- Location: Portland, OR
+In-state tuition possibility after first year ($11,000), strong tech program, good starting salary ($90,000+), and better housing affordability than LA while staying on West Coast.
+
+Each alternative would significantly reduce the loan burden while maintaining strong career prospects in tech.
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state (90203 is in California)
+- Annual tuition: 21780
+- Living costs during school: 19400
+- Total 4-year cost: 164720
+
+2. FINANCIAL AID
+- Zipcode 90203 median household income: 52341
+- Expected grants: 12500
+- Loan amount needed: 114720
+- Monthly loan payment: 1180
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58450
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 41180
+- Loan accumulation: 28680
+- Net worth change: -28680
+
+Years 5-15 (Career):
+- Annual income: 58450
+- Annual expenses: 29400
+- Loan payments: 14160
+- Savings rate: 14890
+- Net worth change: 14890
+1. EDUCATION COSTS
+Institution: California Institute of Integral Studies
+Program: Ethnic, Cultural Minority, Gender, and Group Studies
+Residency Status: In-state
+Annual tuition: 21780
+Living costs during school: 19400
+Total 4-year cost: 164720
+
+2. FINANCIAL AID
+Zipcode 90020 median household income: 58234
+Expected grants: 12500
+Loan amount needed: 152220
+Monthly loan payment: 1585
+
+3. CAREER PROJECTION
+Position: Management Occupations
+Location: Abilene, TX
+Starting salary: 61250
+Expected annual raises: 3.5
+Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 41180
+Loan accumulation: 38055
+Net worth change: -38055
+
+Years 5-15 (Career):
+Annual income: 61250
+Annual expenses: 29400
+Loan payments: 19020
+Savings rate: 12830
+Net worth change: 141130
+Based on the financial projections, here are 3 alternative plans that could potentially offer better financial outcomes:
+
+Plan 1:
+- College: San Diego State University
+- Field: Business Administration
+- Career: Financial Operations Manager
+- Location: Austin, TX
+Rationale: Lower tuition costs (~$15,000/year), higher starting salary (~$75,000), and better job market in a tech hub with lower cost of living than California.
+
+Plan 2:
+- College: Texas Tech University
+- Field: Computer Science
+- Career: Software Developer
+- Location: Dallas-Fort Worth, TX
+Rationale: More affordable tuition (~$11,000/year in-state), high-demand field with starting salaries around $80,000, and strong tech job market with moderate living costs.
+
+Plan 3:
+- College: Arizona State University
+- Field: Healthcare Administration
+- Career: Healthcare Manager
+- Location: Phoenix, AZ
+Rationale: Reasonable tuition (~$12,000/year), growing healthcare sector, starting salaries around $65,000 with strong growth potential, and lower cost of living than current plan.
+
+Each of these alternatives would reduce the initial debt burden while potentially offering higher starting salaries or lower living costs, improving the long-term financial outlook compared to the current plan.
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: Out-of-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90533 median household income: 68240
+- Expected grants: 12500
+- Loan amount needed: 134200
+- Monthly loan payment: 1385
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 33550
+- Net worth change: -33550
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 31200
+- Loan payments: 16620
+- Savings rate: 18.6
+- Net worth change: 10930
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90030 median household income: 47250
+- Expected grants: 12500
+- Loan amount needed: 134200
+- Monthly loan payment: 1485
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 33550
+- Net worth change: -33550
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 31200
+- Loan payments: 17820
+- Savings rate: 16.5
+- Net worth change: 9730
+Here are 3 alternative plans that could potentially improve the financial outlook:
+
+Plan 1:
+- College: California State University (CSU) system
+- Field: Business Administration
+- Career: Financial Analyst
+- Location: Austin, TX
+- Benefits: Lower tuition (~$7,500/year), higher starting salary (~$65,000), strong job market, lower cost of living
+
+Plan 2:
+- College: University of Arizona
+- Field: Computer Science
+- Career: Software Developer
+- Location: Phoenix, AZ
+- Benefits: Moderate tuition (~$12,000/year), high starting salary (~$75,000), growing tech hub, reasonable living costs
+
+Plan 3:
+- College: University of North Carolina Charlotte
+- Field: Healthcare Administration
+- Career: Healthcare Manager
+- Location: Charlotte, NC
+- Benefits: Competitive tuition (~$9,000/year), stable career path (~$62,000 starting), growing healthcare sector, balanced cost of living
+
+Each of these alternatives offers better tuition costs than the current plan, stronger salary potential, and locations with favorable cost-of-living to income ratios, potentially leading to positive net worth within 5-7 years after graduation.
+1. EDUCATION COSTS
+Institution: California Institute of Integral Studies
+Program: Ethnic, Cultural Minority, Gender, and Group Studies
+Residency Status: Out-of-state
+Annual tuition: 21450
+Living costs during school: 23800
+Total 4-year cost: 181000
+
+2. FINANCIAL AID
+Zipcode 99023 median household income: 78250
+Expected grants: 12500
+Loan amount needed: 168500
+Monthly loan payment: 1850
+
+3. CAREER PROJECTION
+Position: Management Occupations
+Location: Abilene, TX
+Starting salary: 58400
+Expected annual raises: 3.5
+Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 45250
+Loan accumulation: 42125
+Net worth change: -42125
+
+Years 5-15 (Career):
+Annual income: 58400
+Annual expenses: 32400
+Loan payments: 22200
+Savings rate: 6.5
+Net worth change: 3800
+Based on the financial projections, here are 3 alternative plans that could offer better financial outcomes:
+
+Plan 1:
+- College: University of Texas at Austin (lower out-of-state tuition)
+- Field: Business Analytics
+- Career: Data Analytics Manager
+- Location: Austin, TX
+Expected benefits: Higher starting salary (~$75,000), strong tech job market, similar living costs, and lower total education debt.
+
+Plan 2:
+- College: Arizona State University
+- Field: Computer Science
+- Career: Software Development Manager
+- Location: Phoenix, AZ
+Expected benefits: Lower tuition costs, growing tech hub, higher starting salary (~$85,000), and lower cost of living than current plan.
+
+Plan 3:
+- College: University of Washington - Tacoma
+- Field: Healthcare Administration
+- Career: Healthcare Manager
+- Location: Seattle metro area
+Expected benefits: In-demand field, higher starting salary (~$70,000), strong healthcare job market, and better long-term growth potential despite higher living costs.
+
+Each of these alternatives offers better debt-to-income ratios and stronger potential for positive net worth within 5-7 years after graduation compared to the current plan.
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21840
+- Living costs during school: 24600
+- Total 4-year cost: 185760
+
+2. FINANCIAL AID
+- Zipcode 90030 median household income: 47250
+- Expected grants: 12500
+- Loan amount needed: 173260
+- Monthly loan payment: 1820
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46440
+- Loan accumulation: 43315
+- Net worth change: -43315
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 32400
+- Loan payments: 21840
+- Savings rate: 4510
+- Net worth change: 54120
+Based on the financial data provided, here are 3 alternative plans that could offer better financial outcomes:
+
+Plan 1:
+- College: San Diego State University (lower tuition ~$7,500/year)
+- Field: Business Administration
+- Career: Financial Analyst
+- Location: Austin, TX (higher wages, moderate cost of living)
+Expected outcome: Lower student debt, higher starting salary (~$65,000), better growth potential
+
+Plan 2:
+- College: Arizona State University (tuition ~$11,300/year)
+- Field: Computer Science
+- Career: Software Developer
+- Location: Raleigh, NC (tech hub, lower cost of living)
+Expected outcome: Marketable skills, higher starting salary (~$75,000), strong job market
+
+Plan 3:
+- College: Texas Tech University (tuition ~$9,300/year)
+- Field: Engineering
+- Career: Mechanical Engineer
+- Location: Houston, TX (no state income tax, strong job market)
+Expected outcome: Strong ROI, higher starting salary (~$70,000), established industry presence
+
+All these alternatives offer:
+- Lower total education costs
+- Higher starting salaries
+- Better debt-to-income ratios
+- Locations with lower cost of living than current plan
+- More favorable long-term financial projections
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90030 median household income: 47250
+- Expected grants: 12500
+- Loan amount needed: 134200
+- Monthly loan payment: 1485
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 65400
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 33550
+- Net worth change: -33550
+
+Years 5-15 (Career):
+- Annual income: 65400
+- Annual expenses: 38400
+- Loan payments: 17820
+- Savings rate: 14
+- Net worth change: 9180
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90034 median household income: 82341
+- Expected grants: 12500
+- Loan amount needed: 134200
+- Monthly loan payment: 1485
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58750
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 33550
+- Net worth change: -33550
+
+Years 5-15 (Career):
+- Annual income: 58750
+- Annual expenses: 31200
+- Loan payments: 17820
+- Savings rate: 9730
+- Net worth change: 9730
+Based on the financial data provided, here are 3 alternative plans that could potentially offer better financial outcomes:
+
+Plan 1:
+- College: San Diego State University
+- Field: Business Administration
+- Career: Financial Analyst
+- Location: Austin, TX
+* Lower tuition costs (~$15,000/year), stronger job market, higher starting salary (~$65,000), and lower cost of living than current plan.
+
+Plan 2:
+- College: Arizona State University
+- Field: Computer Science
+- Career: Software Developer
+- Location: Raleigh, NC
+* Competitive tuition (~$18,000/year), high-demand field, higher starting salary (~$75,000), and moderate cost of living.
+
+Plan 3:
+- College: University of Texas at Dallas
+- Field: Healthcare Administration
+- Career: Healthcare Manager
+- Location: Houston, TX
+* Reasonable tuition (~$16,000/year), growing industry, competitive starting salary (~$62,000), and favorable cost of living ratio.
+
+All these alternatives would likely result in:
+- Lower total student debt
+- Higher starting salaries
+- Better long-term earning potential
+- More favorable debt-to-income ratios
+- Positive net worth achieved earlier than the current plan
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21780
+- Living costs during school: 24600
+- Total 4-year cost: 185520
+
+2. FINANCIAL AID
+- Zipcode 90302 median household income: 49853
+- Expected grants: 12500
+- Loan amount needed: 148520
+- Monthly loan payment: 1238
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 65400
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46380
+- Loan accumulation: 37130
+- Net worth change: -37130
+
+Years 5-15 (Career):
+- Annual income: 65400
+- Annual expenses: 31200
+- Loan payments: 14856
+- Savings rate: 19344
+- Net worth change: 4488
+1. EDUCATION COSTS
+Institution: California Institute of Integral Studies
+Program: Ethnic, Cultural Minority, Gender, and Group Studies
+Residency Status: In-state
+Annual tuition: 21780
+Living costs during school: 19200
+Total 4-year cost: 163920
+
+2. FINANCIAL AID
+Zipcode 90030 median household income: 47250
+Expected grants: 12500
+Loan amount needed: 151420
+Monthly loan payment: 1580
+
+3. CAREER PROJECTION
+Position: Management Occupations
+Location: Abilene, TX
+Starting salary: 58640
+Expected annual raises: 3.5
+Housing monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+Annual expenses: 40980
+Loan accumulation: 37855
+Net worth change: -40980
+
+Years 5-15 (Career):
+Annual income: 58640
+Annual expenses: 29820
+Loan payments: 18960
+Savings rate: 16.8
+Net worth change: 9860
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90030 median household income: 47250
+- Expected grants: 18500
+- Loan amount needed: 165700
+- Monthly loan payment: 1725
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 58400
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 41425
+- Net worth change: -41425
+
+Years 5-15 (Career):
+- Annual income: 58400
+- Annual expenses: 32400
+- Loan payments: 20700
+- Savings rate: 5300
+- Net worth change: 5300
+Here are 3 alternative plans based on the financial and career projections:
+
+Plan 1:
+- College: San Francisco State University
+- Field: Business Administration
+- Career: Financial Analyst
+- Location: Austin, TX
+Benefit: Lower tuition ($7,484/year), higher starting salary (~$65,000), and better job market in a tech hub with lower cost of living than California.
+
+Plan 2:
+- College: Arizona State University
+- Field: Computer Science
+- Career: Software Developer
+- Location: Phoenix, AZ
+Benefit: Moderate tuition ($11,338/year), much higher starting salary (~$75,000), growing tech scene, and significantly lower living costs.
+
+Plan 3:
+- College: University of North Carolina Charlotte
+- Field: Data Analytics
+- Career: Data Analyst
+- Location: Charlotte, NC
+Benefit: Reasonable tuition ($14,687/year), competitive starting salary (~$62,000), strong banking/tech sector, and balanced cost of living.
+
+Each alternative offers better debt-to-income ratio than the original plan, with stronger salary growth potential and lower living costs in emerging job markets.
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state (90020 is in Los Angeles, CA)
+- Annual tuition: 21840
+- Living costs during school: 24600
+- Total 4-year cost: 185760
+
+2. FINANCIAL AID
+- Zipcode 90020 median household income: 48362
+- Expected grants: 12500
+- Loan amount needed: 173260
+- Monthly loan payment: 1985
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 68450
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46440
+- Loan accumulation: 43315
+- Net worth change: -43315
+
+Years 5-15 (Career):
+- Annual income: 68450
+- Annual expenses: 35400
+- Loan payments: 23820
+- Savings rate: 13.5
+- Net worth change: 9230
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90020 median household income: 48234
+- Expected grants: 12500
+- Loan amount needed: 134200
+- Monthly loan payment: 1485
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 62400
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 33550
+- Net worth change: -33550
+
+Years 5-15 (Career):
+- Annual income: 62400
+- Annual expenses: 31200
+- Loan payments: 17820
+- Savings rate: 13380
+- Net worth change: 13380
+1. EDUCATION COSTS
+- Institution: California Institute of Integral Studies
+- Program: Ethnic, Cultural Minority, Gender, and Group Studies
+- Residency Status: In-state (90020 is in Los Angeles, CA)
+- Annual tuition: 21450
+- Living costs during school: 24600
+- Total 4-year cost: 184200
+
+2. FINANCIAL AID
+- Zipcode 90020 median household income: 48234
+- Expected grants: 18500
+- Loan amount needed: 165700
+- Monthly loan payment: 1725
+
+3. CAREER PROJECTION
+- Position: Management Occupations
+- Location: Abilene, TX
+- Starting salary: 68400
+- Expected annual raises: 3.5
+- Housing (1 bedroom) monthly cost: 825
+
+4. YEARLY BREAKDOWN
+Year 1-4 (School):
+- Annual expenses: 46050
+- Loan accumulation: 41425
+- Net worth change: -41425
+
+Years 5-15 (Career):
+- Annual income: 68400
+- Annual expenses: 35400
+- Loan payments: 20700
+- Savings rate: 12300
+- Net worth change: 8750
